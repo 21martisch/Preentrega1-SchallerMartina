@@ -1,0 +1,37 @@
+nav{
+    background-color: rgba(224, 221, 221, 0.455);
+}
+
+.logo{
+    width: 24%;
+}
+
+.title{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenedor{
+    display: flex;
+    justify-content:center;
+}
+.navbar-nav {
+    gap: 1rem; 
+  }
+  
+  .contenedor .logo {
+    max-width: 50px; 
+  }
+
+.contenedor-img{
+    margin-right: -600px;
+}
+
+.font{
+    font-size: 18px;
+}
+
+.font:hover{
+    color: rgba(227, 89, 135, 0.864);
+    text-decoration:underline;
+}
