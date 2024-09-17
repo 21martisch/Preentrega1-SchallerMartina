@@ -15,7 +15,7 @@
 .cardImagen img {
     width: 100%;
     display: block;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); /*Busque informacion sobre como hacer el corte estetico que queria en la imagen y encontre clip-path asi que lo implemente*/
 }
 
 .cardContent {
