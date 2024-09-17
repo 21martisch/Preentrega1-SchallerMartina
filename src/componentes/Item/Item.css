@@ -1,0 +1,48 @@
+.cardProducto {
+    width: 250px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s;
+    margin: 20px;
+}
+
+.cardProducto:hover {
+    transform: translateY(-10px); 
+}
+
+.cardImagen img {
+    width: 100%;
+    display: block;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.cardContent {
+    padding: 15px;
+    text-align: center; 
+}
+
+.cardTitle {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #595858; 
+}
+
+.cardPrice {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #252525;
+    margin: 5px 0;
+}
+
+.cardContent button {
+    background-color: #776e79;
+    color: #fafafa;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 10px;
+}
+
+

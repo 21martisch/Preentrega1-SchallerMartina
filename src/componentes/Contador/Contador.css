@@ -1,0 +1,44 @@
+.contador-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contador-btn {
+    background-color: #776e79;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contador-btn:hover {
+    background-color: #514c53;
+    color: white;
+  }
+  
+  .contador-numero {
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .AgregarCarritoBtn {
+    background-color: #776e79;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .AgregarCarritoBtn:hover {
+    background-color: #514c53;
+  }
+  
